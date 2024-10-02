@@ -1,0 +1,19 @@
+{
+    "name": "parcel-resolver-exports-bug",
+    "private": true,
+    "license": "MIT",
+    "devDependencies": {
+        "@picocss/pico": "2.0.6",
+        "parcel": "2.12.0",
+        "parcel-transformer-svelte3-plus": "0.2.10",
+        "svelte": "4.2.19",
+        "svelte-french-toast": "1.2.0"
+    },
+    "scripts": {
+        "serve": "npx parcel index.html",
+        "build": "npx parcel build index.html"
+    },
+    "@parcel/resolver-default": {
+        "packageExports": true
+    }
+}

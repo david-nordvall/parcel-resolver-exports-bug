@@ -1,0 +1,16 @@
+{
+    "name": "parcel-resolver-exports-bug",
+    "image": "mcr.microsoft.com/devcontainers/typescript-node:22",
+    "features": {},
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "svelte.svelte-vscode"
+            ],
+            "settings": {
+                "editor.formatOnSave": true
+            }
+        }
+    },
+    "onCreateCommand": "yarn install"
+}
